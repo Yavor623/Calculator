@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CalculatorApp1/1.0.0": {
+        "dependencies": {
+          "CalculatorLogic": "1.0.0"
+        },
+        "runtime": {
+          "CalculatorApp1.dll": {}
+        }
+      },
+      "CalculatorLogic/1.0.0": {
+        "runtime": {
+          "CalculatorLogic.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.exe.config
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.exe
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.pdb
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.exe
+C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.pdb
