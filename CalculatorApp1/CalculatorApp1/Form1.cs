@@ -11,149 +11,85 @@ namespace CalculatorApp1
         private string secondNumber;
         private string operation;
         private string secondOperation;
+        private bool isNegatebtnClicked;
         public Form1()
         {
             logic = new Calculations();
             InitializeComponent();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
         string result;
 
-        public Form1(string firstNumber, string secondNumber, string operation)
+        public Form1(string firstNumber, string secondNumber, string operation, string secondOperation, bool isNegatebtnClicked)
         {
             this.firstNumber = firstNumber;
             this.secondNumber = secondNumber;
             this.operation = operation;
+            this.secondOperation = secondOperation;
+            this.isNegatebtnClicked = isNegatebtnClicked;
         }
-        private void onebtn_Click(object sender, EventArgs e)
+        public void AddingNumbers(string number)
         {
             if (resulttxt.Text == "0")
             {
-                resulttxt.Text = "1";
-                placeHolderLabelOfScreen.Text = "1";
+                resulttxt.Text = number;
+                placeHolderLabelOfScreen.Text = number;
             }
             else
             {
-                resulttxt.Text += "1";
-                placeHolderLabelOfScreen.Text += "1";
+                resulttxt.Text += number;
+                placeHolderLabelOfScreen.Text += number;
             }
+                
+            
+        }
+        private void onebtn_Click(object sender, EventArgs e)
+        {
+            AddingNumbers("1");
         }
 
         private void twobtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "2";
-                placeHolderLabelOfScreen.Text = "2";
-            }
-            else
-            {
-                resulttxt.Text += "2";
-                placeHolderLabelOfScreen.Text += "2";
-            }
+            AddingNumbers("2");
         }
 
 
 
         private void sixbtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "6";
-                placeHolderLabelOfScreen.Text = "6";
-            }
-            else
-            {
-                resulttxt.Text += "6";
-                placeHolderLabelOfScreen.Text += "6";
-            }
+            AddingNumbers("6");
         }
 
         private void fivebtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "5";
-                placeHolderLabelOfScreen.Text = "5";
-            }
-            else
-            {
-                resulttxt.Text += "5";
-                placeHolderLabelOfScreen.Text += "5";
-            }
+            AddingNumbers("5");
         }
 
         private void fourbtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "4";
-                placeHolderLabelOfScreen.Text = "4";
-            }
-            else
-            {
-                resulttxt.Text += "4";
-                placeHolderLabelOfScreen.Text += "4";
-            }
+            AddingNumbers("4");
         }
 
         private void sevenbtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "7";
-                placeHolderLabelOfScreen.Text = "7";
-            }
-            else
-            {
-                resulttxt.Text += "7";
-                placeHolderLabelOfScreen.Text += "7";
-            }
+            AddingNumbers("7");
         }
 
         private void eightbtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "8";
-                placeHolderLabelOfScreen.Text = "8";
-            }
-            else
-            {
-                resulttxt.Text += "8";
-                placeHolderLabelOfScreen.Text += "8";
-            }
-
+            AddingNumbers("8");
         }
 
         private void ninebtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "9";
-                placeHolderLabelOfScreen.Text = "9";
-            }
-            else
-            {
-                resulttxt.Text += "9";
-                placeHolderLabelOfScreen.Text += "9";
-            }
+            AddingNumbers("9");
         }
-
+  
         private void equalbtn_Click(object sender, EventArgs e)
         {
-           
-            MainOperation();
-            resulttxt.Text = result;
-            placeHolderLabelOfScreen.Text += "=";
-            if (result != null)
-            {
-                placeHolderLabelOfScreen.Text = result;
-            }
+            placeHolderLabelOfScreen.Text = string.Empty;
+            resulttxt.Text = logic.MainOperation(firstNumber, secondNumber, resulttxt.Text, operation);
+            placeHolderLabelOfScreen.Text = resulttxt.Text;
         }
 
         private void plusbtn_Click(object sender, EventArgs e)
@@ -199,76 +135,9 @@ namespace CalculatorApp1
             }
 
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button_Click(object sender, EventArgs e)
-        {
-
-        }
-        public void MainOperation()
-        {
-            if (operation != null)
-            {
-                this.secondNumber = resulttxt.Text;
-                double fn;
-                double sn;
-               
-                    switch (operation)
-                    {
-                        case "+":
-
-                            double.TryParse(firstNumber, out fn);
-                            double.TryParse(secondNumber, out sn);
-                            double finalResult = logic.Adding(fn, sn);
-                            result = $"{finalResult}";
-                            break;
-                        case "-":
-                            double.TryParse(firstNumber, out fn);
-                            double.TryParse(secondNumber, out sn);
-                            double finalResult1 = logic.Substraction(fn, sn);
-                            result = $"{finalResult1}";
-                            break;
-                        case "*":
-                            double.TryParse(firstNumber, out fn);
-                            double.TryParse(secondNumber, out sn);
-                            double finalResult2 = logic.Multiplicaton(fn, sn);
-                            result = $"{finalResult2}";
-                            break;
-                        case "/":
-                            double.TryParse(firstNumber, out fn);
-                            double.TryParse(secondNumber, out sn);
-                            string finalResult3 = logic.Division(fn, sn);
-                            result = finalResult3;
-                            break;
-                        case "%":
-                            double.TryParse(firstNumber, out fn);
-                            double.TryParse(secondNumber, out sn);
-                        double finalResult4;
-                        break;
-                    }
-                
-                
-            }
-
-
-        }
-
         private void threebtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text == "0")
-            {
-                resulttxt.Text = "3";
-                placeHolderLabelOfScreen.Text = "3";
-            }
-            else
-            {
-                resulttxt.Text += "3";
-                placeHolderLabelOfScreen.Text += "3";
-            }
+            AddingNumbers("3");
         }
 
         private void multiplicationbtn_Click(object sender, EventArgs e)
@@ -302,17 +171,34 @@ namespace CalculatorApp1
         private void negatebtn_Click(object sender, EventArgs e)
         {
             double result = double.Parse(resulttxt.Text);
-            result = result * -1;
+            if (result != 0)
+            {
+                result = result * -1;
+            }
+            else
+            {
+                result = 0;
+            }
             resulttxt.Text = result.ToString();
         }
 
         private void removeLastOnebtn_Click(object sender, EventArgs e)
         {
-            if (resulttxt.Text != string.Empty)
+            if (resulttxt.Text != "0"&&resulttxt.Text!=string.Empty)
             {
-                StringBuilder sb = new StringBuilder();
-                sb.Remove(resulttxt.Text.Length - 1, 1);
-                resulttxt.Text = sb.ToString();
+                List<char> list = resulttxt.Text.Trim().ToList();
+                list.RemoveAt(resulttxt.Text.Length - 1);
+                resulttxt.Text = string.Empty;
+                placeHolderLabelOfScreen.Text = string.Empty;
+                foreach(var a in list)
+                {
+                    resulttxt.Text += a;
+                    placeHolderLabelOfScreen.Text += a;
+                }
+                if (resulttxt.Text.Length == 0)
+                {
+                    resulttxt.Text = "0";
+                }
             }
         }
 
@@ -328,7 +214,7 @@ namespace CalculatorApp1
         {
             placeHolderLabelOfScreen.Text = $"{resulttxt.Text}²";
             double result = double.Parse(resulttxt.Text);
-            result= Math.Pow(result, 2);
+            result= logic.ByThePowerOf2(result);
             resulttxt.Text = result.ToString();
         }
 
@@ -346,26 +232,46 @@ namespace CalculatorApp1
 
             operation = "%";
             placeHolderLabelOfScreen.Text += "%";
+            resulttxt.Text = string.Empty;
         }
 
         private void removeLastbtn_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void commabtn_Click(object sender, EventArgs e)
         {
-            resulttxt.Text += ",";
-        }
+            try
+            {
+              
+                if (resulttxt.Text == "0")
+                {
+                    double result = double.Parse(resulttxt.Text);
+                    if (result / 1 == result)
+                    {
+                        resulttxt.Text += ",";
+                        placeHolderLabelOfScreen.Text = "0,";
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
+                    }
 
-        }
-
-        private void Form1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
-        {
-
+                }
+                else
+                {
+                    double result = double.Parse(resulttxt.Text);
+                    if (result / 1 == result )
+                    {
+                        resulttxt.Text += ",";
+                        placeHolderLabelOfScreen.Text += ",";
+                    }
+                }
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("You cannot add more than two commas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+           
+           
         }
 
         private void resulttxt_KeyDown(object sender, KeyEventArgs e)
@@ -405,15 +311,27 @@ namespace CalculatorApp1
                 case Keys.Decimal:
                     commabtn.PerformClick();
                     break;
-                    /*case Keys.D1:
-                        onebtn.PerformClick();
+                case Keys.Add:
+                        plusbtn.PerformClick();
+                    break;
+                case Keys.Subtract:
+                        minusbtn.PerformClick();
                         break;
-                    case Keys.D1:
-                        onebtn.PerformClick();
+                case Keys.Multiply:
+                        multiplicationbtn.PerformClick();
                         break;
-                    case Keys.D1:
-                        onebtn.PerformClick();
-                        break;*/
+                case Keys.Divide:
+                    dividebtn.PerformClick();
+                    break;
+                case Keys.Enter:
+                    equalbtn.PerformClick();
+                    break;
+                case Keys.Execute:
+                    equalbtn.PerformClick();
+                    break;
+                case Keys.Back:
+                    removeLastOnebtn.PerformClick();
+                    break;
             }
         }
     }

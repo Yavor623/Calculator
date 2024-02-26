@@ -28,413 +28,437 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tableLayoutPanel1 = new TableLayoutPanel();
-            equalbtn = new Button();
-            commabtn = new Button();
-            zerobtn = new Button();
-            negatebtn = new Button();
-            plusbtn = new Button();
-            threebtn = new Button();
-            twobtn = new Button();
-            onebtn = new Button();
-            minusbtn = new Button();
-            sixbtn = new Button();
-            fivebtn = new Button();
-            fourbtn = new Button();
-            multiplicationbtn = new Button();
-            ninebtn = new Button();
-            eightbtn = new Button();
-            sevenbtn = new Button();
-            dividebtn = new Button();
-            sqrtbtn = new Button();
-            byThePowerOf2Btn = new Button();
-            XDividedBy1Btn = new Button();
-            removeLastOnebtn = new Button();
-            removeAllbtn = new Button();
-            removeLastbtn = new Button();
-            resulttxt = new TextBox();
-            percentbtn = new Button();
-            placeHolderLabelOfScreen = new Label();
-            tableLayoutPanel1.SuspendLayout();
-            SuspendLayout();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.equalbtn = new System.Windows.Forms.Button();
+            this.commabtn = new System.Windows.Forms.Button();
+            this.zerobtn = new System.Windows.Forms.Button();
+            this.negatebtn = new System.Windows.Forms.Button();
+            this.plusbtn = new System.Windows.Forms.Button();
+            this.threebtn = new System.Windows.Forms.Button();
+            this.twobtn = new System.Windows.Forms.Button();
+            this.onebtn = new System.Windows.Forms.Button();
+            this.minusbtn = new System.Windows.Forms.Button();
+            this.sixbtn = new System.Windows.Forms.Button();
+            this.fivebtn = new System.Windows.Forms.Button();
+            this.fourbtn = new System.Windows.Forms.Button();
+            this.multiplicationbtn = new System.Windows.Forms.Button();
+            this.ninebtn = new System.Windows.Forms.Button();
+            this.eightbtn = new System.Windows.Forms.Button();
+            this.sevenbtn = new System.Windows.Forms.Button();
+            this.dividebtn = new System.Windows.Forms.Button();
+            this.sqrtbtn = new System.Windows.Forms.Button();
+            this.byThePowerOf2Btn = new System.Windows.Forms.Button();
+            this.XDividedBy1Btn = new System.Windows.Forms.Button();
+            this.removeLastOnebtn = new System.Windows.Forms.Button();
+            this.removeAllbtn = new System.Windows.Forms.Button();
+            this.removeLastbtn = new System.Windows.Forms.Button();
+            this.resulttxt = new System.Windows.Forms.TextBox();
+            this.percentbtn = new System.Windows.Forms.Button();
+            this.placeHolderLabelOfScreen = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel1.Controls.Add(equalbtn, 3, 6);
-            tableLayoutPanel1.Controls.Add(commabtn, 2, 6);
-            tableLayoutPanel1.Controls.Add(zerobtn, 1, 6);
-            tableLayoutPanel1.Controls.Add(negatebtn, 0, 6);
-            tableLayoutPanel1.Controls.Add(plusbtn, 3, 5);
-            tableLayoutPanel1.Controls.Add(threebtn, 2, 5);
-            tableLayoutPanel1.Controls.Add(twobtn, 1, 5);
-            tableLayoutPanel1.Controls.Add(onebtn, 0, 5);
-            tableLayoutPanel1.Controls.Add(minusbtn, 3, 4);
-            tableLayoutPanel1.Controls.Add(sixbtn, 2, 4);
-            tableLayoutPanel1.Controls.Add(fivebtn, 1, 4);
-            tableLayoutPanel1.Controls.Add(fourbtn, 0, 4);
-            tableLayoutPanel1.Controls.Add(multiplicationbtn, 3, 3);
-            tableLayoutPanel1.Controls.Add(ninebtn, 2, 3);
-            tableLayoutPanel1.Controls.Add(eightbtn, 1, 3);
-            tableLayoutPanel1.Controls.Add(sevenbtn, 0, 3);
-            tableLayoutPanel1.Controls.Add(dividebtn, 3, 2);
-            tableLayoutPanel1.Controls.Add(sqrtbtn, 2, 2);
-            tableLayoutPanel1.Controls.Add(byThePowerOf2Btn, 1, 2);
-            tableLayoutPanel1.Controls.Add(XDividedBy1Btn, 0, 2);
-            tableLayoutPanel1.Controls.Add(removeLastOnebtn, 3, 1);
-            tableLayoutPanel1.Controls.Add(removeAllbtn, 2, 1);
-            tableLayoutPanel1.Controls.Add(removeLastbtn, 1, 1);
-            tableLayoutPanel1.Controls.Add(resulttxt, 0, 0);
-            tableLayoutPanel1.Controls.Add(percentbtn, 0, 1);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 7;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 24.5121956F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 12.5813007F));
-            tableLayoutPanel1.Size = new Size(360, 551);
-            tableLayoutPanel1.TabIndex = 0;
-            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Controls.Add(this.equalbtn, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.commabtn, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.zerobtn, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.negatebtn, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.plusbtn, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.threebtn, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.twobtn, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.onebtn, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.minusbtn, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.sixbtn, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.fivebtn, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.fourbtn, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.multiplicationbtn, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.ninebtn, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.eightbtn, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.sevenbtn, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.dividebtn, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.sqrtbtn, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.byThePowerOf2Btn, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.XDividedBy1Btn, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.removeLastOnebtn, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.removeAllbtn, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.removeLastbtn, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.resulttxt, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.percentbtn, 0, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.5122F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5813F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(317, 419);
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // equalbtn
             // 
-            equalbtn.Dock = DockStyle.Fill;
-            equalbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            equalbtn.Location = new Point(273, 483);
-            equalbtn.Name = "equalbtn";
-            equalbtn.Size = new Size(84, 65);
-            equalbtn.TabIndex = 24;
-            equalbtn.Text = "=";
-            equalbtn.UseVisualStyleBackColor = true;
-            equalbtn.Click += equalbtn_Click;
+            this.equalbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.equalbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.equalbtn.Location = new System.Drawing.Point(240, 364);
+            this.equalbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.equalbtn.Name = "equalbtn";
+            this.equalbtn.Size = new System.Drawing.Size(74, 53);
+            this.equalbtn.TabIndex = 24;
+            this.equalbtn.Text = "=";
+            this.equalbtn.UseVisualStyleBackColor = true;
+            this.equalbtn.Click += new System.EventHandler(this.equalbtn_Click);
             // 
             // commabtn
             // 
-            commabtn.Dock = DockStyle.Fill;
-            commabtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            commabtn.Location = new Point(183, 483);
-            commabtn.Name = "commabtn";
-            commabtn.Size = new Size(84, 65);
-            commabtn.TabIndex = 23;
-            commabtn.Text = ",";
-            commabtn.UseVisualStyleBackColor = true;
-            commabtn.Click += commabtn_Click;
+            this.commabtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.commabtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.commabtn.Location = new System.Drawing.Point(161, 364);
+            this.commabtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.commabtn.Name = "commabtn";
+            this.commabtn.Size = new System.Drawing.Size(73, 53);
+            this.commabtn.TabIndex = 23;
+            this.commabtn.Text = ",";
+            this.commabtn.UseVisualStyleBackColor = true;
+            this.commabtn.Click += new System.EventHandler(this.commabtn_Click);
             // 
             // zerobtn
             // 
-            zerobtn.Dock = DockStyle.Fill;
-            zerobtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            zerobtn.Location = new Point(93, 483);
-            zerobtn.Name = "zerobtn";
-            zerobtn.Size = new Size(84, 65);
-            zerobtn.TabIndex = 22;
-            zerobtn.Text = "0";
-            zerobtn.UseVisualStyleBackColor = true;
-            zerobtn.Click += zerobtn_Click;
+            this.zerobtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.zerobtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.zerobtn.Location = new System.Drawing.Point(82, 364);
+            this.zerobtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.zerobtn.Name = "zerobtn";
+            this.zerobtn.Size = new System.Drawing.Size(73, 53);
+            this.zerobtn.TabIndex = 22;
+            this.zerobtn.Text = "0";
+            this.zerobtn.UseVisualStyleBackColor = true;
+            this.zerobtn.Click += new System.EventHandler(this.zerobtn_Click);
             // 
             // negatebtn
             // 
-            negatebtn.Dock = DockStyle.Fill;
-            negatebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            negatebtn.Location = new Point(3, 483);
-            negatebtn.Name = "negatebtn";
-            negatebtn.Size = new Size(84, 65);
-            negatebtn.TabIndex = 21;
-            negatebtn.Text = "+/-";
-            negatebtn.UseVisualStyleBackColor = true;
-            negatebtn.Click += negatebtn_Click;
+            this.negatebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.negatebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.negatebtn.Location = new System.Drawing.Point(3, 364);
+            this.negatebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.negatebtn.Name = "negatebtn";
+            this.negatebtn.Size = new System.Drawing.Size(73, 53);
+            this.negatebtn.TabIndex = 21;
+            this.negatebtn.Text = "+/-";
+            this.negatebtn.UseVisualStyleBackColor = true;
+            this.negatebtn.Click += new System.EventHandler(this.negatebtn_Click);
             // 
             // plusbtn
             // 
-            plusbtn.Dock = DockStyle.Fill;
-            plusbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            plusbtn.Location = new Point(273, 414);
-            plusbtn.Name = "plusbtn";
-            plusbtn.Size = new Size(84, 63);
-            plusbtn.TabIndex = 20;
-            plusbtn.Text = "+";
-            plusbtn.UseVisualStyleBackColor = true;
-            plusbtn.Click += plusbtn_Click;
+            this.plusbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.plusbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.plusbtn.Location = new System.Drawing.Point(240, 312);
+            this.plusbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.plusbtn.Name = "plusbtn";
+            this.plusbtn.Size = new System.Drawing.Size(74, 48);
+            this.plusbtn.TabIndex = 20;
+            this.plusbtn.Text = "+";
+            this.plusbtn.UseVisualStyleBackColor = true;
+            this.plusbtn.Click += new System.EventHandler(this.plusbtn_Click);
             // 
             // threebtn
             // 
-            threebtn.Dock = DockStyle.Fill;
-            threebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            threebtn.Location = new Point(183, 414);
-            threebtn.Name = "threebtn";
-            threebtn.Size = new Size(84, 63);
-            threebtn.TabIndex = 19;
-            threebtn.Text = "3";
-            threebtn.UseVisualStyleBackColor = true;
-            threebtn.Click += threebtn_Click;
+            this.threebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.threebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.threebtn.Location = new System.Drawing.Point(161, 312);
+            this.threebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.threebtn.Name = "threebtn";
+            this.threebtn.Size = new System.Drawing.Size(73, 48);
+            this.threebtn.TabIndex = 19;
+            this.threebtn.Text = "3";
+            this.threebtn.UseVisualStyleBackColor = true;
+            this.threebtn.Click += new System.EventHandler(this.threebtn_Click);
             // 
             // twobtn
             // 
-            twobtn.Dock = DockStyle.Fill;
-            twobtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            twobtn.Location = new Point(93, 414);
-            twobtn.Name = "twobtn";
-            twobtn.Size = new Size(84, 63);
-            twobtn.TabIndex = 18;
-            twobtn.Text = "2";
-            twobtn.UseVisualStyleBackColor = true;
-            twobtn.Click += twobtn_Click;
+            this.twobtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.twobtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.twobtn.Location = new System.Drawing.Point(82, 312);
+            this.twobtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.twobtn.Name = "twobtn";
+            this.twobtn.Size = new System.Drawing.Size(73, 48);
+            this.twobtn.TabIndex = 18;
+            this.twobtn.Text = "2";
+            this.twobtn.UseVisualStyleBackColor = true;
+            this.twobtn.Click += new System.EventHandler(this.twobtn_Click);
             // 
             // onebtn
             // 
-            onebtn.Dock = DockStyle.Fill;
-            onebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            onebtn.Location = new Point(3, 414);
-            onebtn.Name = "onebtn";
-            onebtn.Size = new Size(84, 63);
-            onebtn.TabIndex = 17;
-            onebtn.Text = "1";
-            onebtn.UseVisualStyleBackColor = true;
-            onebtn.Click += onebtn_Click;
+            this.onebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.onebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.onebtn.Location = new System.Drawing.Point(3, 312);
+            this.onebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.onebtn.Name = "onebtn";
+            this.onebtn.Size = new System.Drawing.Size(73, 48);
+            this.onebtn.TabIndex = 17;
+            this.onebtn.Text = "1";
+            this.onebtn.UseVisualStyleBackColor = true;
+            this.onebtn.Click += new System.EventHandler(this.onebtn_Click);
             // 
             // minusbtn
             // 
-            minusbtn.Dock = DockStyle.Fill;
-            minusbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            minusbtn.Location = new Point(273, 345);
-            minusbtn.Name = "minusbtn";
-            minusbtn.Size = new Size(84, 63);
-            minusbtn.TabIndex = 16;
-            minusbtn.Text = "-";
-            minusbtn.UseVisualStyleBackColor = true;
-            minusbtn.Click += minusbtn_Click;
+            this.minusbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.minusbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.minusbtn.Location = new System.Drawing.Point(240, 260);
+            this.minusbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.minusbtn.Name = "minusbtn";
+            this.minusbtn.Size = new System.Drawing.Size(74, 48);
+            this.minusbtn.TabIndex = 16;
+            this.minusbtn.Text = "-";
+            this.minusbtn.UseVisualStyleBackColor = true;
+            this.minusbtn.Click += new System.EventHandler(this.minusbtn_Click);
             // 
             // sixbtn
             // 
-            sixbtn.Dock = DockStyle.Fill;
-            sixbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            sixbtn.Location = new Point(183, 345);
-            sixbtn.Name = "sixbtn";
-            sixbtn.Size = new Size(84, 63);
-            sixbtn.TabIndex = 15;
-            sixbtn.Text = "6";
-            sixbtn.UseVisualStyleBackColor = true;
-            sixbtn.Click += sixbtn_Click;
+            this.sixbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sixbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.sixbtn.Location = new System.Drawing.Point(161, 260);
+            this.sixbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sixbtn.Name = "sixbtn";
+            this.sixbtn.Size = new System.Drawing.Size(73, 48);
+            this.sixbtn.TabIndex = 15;
+            this.sixbtn.Text = "6";
+            this.sixbtn.UseVisualStyleBackColor = true;
+            this.sixbtn.Click += new System.EventHandler(this.sixbtn_Click);
             // 
             // fivebtn
             // 
-            fivebtn.Dock = DockStyle.Fill;
-            fivebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            fivebtn.Location = new Point(93, 345);
-            fivebtn.Name = "fivebtn";
-            fivebtn.Size = new Size(84, 63);
-            fivebtn.TabIndex = 14;
-            fivebtn.Text = "5";
-            fivebtn.UseVisualStyleBackColor = true;
-            fivebtn.Click += fivebtn_Click;
+            this.fivebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fivebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.fivebtn.Location = new System.Drawing.Point(82, 260);
+            this.fivebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fivebtn.Name = "fivebtn";
+            this.fivebtn.Size = new System.Drawing.Size(73, 48);
+            this.fivebtn.TabIndex = 14;
+            this.fivebtn.Text = "5";
+            this.fivebtn.UseVisualStyleBackColor = true;
+            this.fivebtn.Click += new System.EventHandler(this.fivebtn_Click);
             // 
             // fourbtn
             // 
-            fourbtn.Dock = DockStyle.Fill;
-            fourbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            fourbtn.Location = new Point(3, 345);
-            fourbtn.Name = "fourbtn";
-            fourbtn.Size = new Size(84, 63);
-            fourbtn.TabIndex = 13;
-            fourbtn.Text = "4";
-            fourbtn.UseVisualStyleBackColor = true;
-            fourbtn.Click += fourbtn_Click;
+            this.fourbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fourbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.fourbtn.Location = new System.Drawing.Point(3, 260);
+            this.fourbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fourbtn.Name = "fourbtn";
+            this.fourbtn.Size = new System.Drawing.Size(73, 48);
+            this.fourbtn.TabIndex = 13;
+            this.fourbtn.Text = "4";
+            this.fourbtn.UseVisualStyleBackColor = true;
+            this.fourbtn.Click += new System.EventHandler(this.fourbtn_Click);
             // 
             // multiplicationbtn
             // 
-            multiplicationbtn.Dock = DockStyle.Fill;
-            multiplicationbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            multiplicationbtn.Location = new Point(273, 276);
-            multiplicationbtn.Name = "multiplicationbtn";
-            multiplicationbtn.Size = new Size(84, 63);
-            multiplicationbtn.TabIndex = 12;
-            multiplicationbtn.Text = "×";
-            multiplicationbtn.UseVisualStyleBackColor = true;
-            multiplicationbtn.Click += multiplicationbtn_Click;
+            this.multiplicationbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.multiplicationbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.multiplicationbtn.Location = new System.Drawing.Point(240, 208);
+            this.multiplicationbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.multiplicationbtn.Name = "multiplicationbtn";
+            this.multiplicationbtn.Size = new System.Drawing.Size(74, 48);
+            this.multiplicationbtn.TabIndex = 12;
+            this.multiplicationbtn.Text = "×";
+            this.multiplicationbtn.UseVisualStyleBackColor = true;
+            this.multiplicationbtn.Click += new System.EventHandler(this.multiplicationbtn_Click);
             // 
             // ninebtn
             // 
-            ninebtn.Dock = DockStyle.Fill;
-            ninebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            ninebtn.Location = new Point(183, 276);
-            ninebtn.Name = "ninebtn";
-            ninebtn.Size = new Size(84, 63);
-            ninebtn.TabIndex = 11;
-            ninebtn.Text = "9";
-            ninebtn.UseVisualStyleBackColor = true;
-            ninebtn.Click += ninebtn_Click;
+            this.ninebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ninebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ninebtn.Location = new System.Drawing.Point(161, 208);
+            this.ninebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ninebtn.Name = "ninebtn";
+            this.ninebtn.Size = new System.Drawing.Size(73, 48);
+            this.ninebtn.TabIndex = 11;
+            this.ninebtn.Text = "9";
+            this.ninebtn.UseVisualStyleBackColor = true;
+            this.ninebtn.Click += new System.EventHandler(this.ninebtn_Click);
             // 
             // eightbtn
             // 
-            eightbtn.Dock = DockStyle.Fill;
-            eightbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            eightbtn.Location = new Point(93, 276);
-            eightbtn.Name = "eightbtn";
-            eightbtn.Size = new Size(84, 63);
-            eightbtn.TabIndex = 10;
-            eightbtn.Text = "8";
-            eightbtn.UseVisualStyleBackColor = true;
-            eightbtn.Click += eightbtn_Click;
+            this.eightbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.eightbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.eightbtn.Location = new System.Drawing.Point(82, 208);
+            this.eightbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.eightbtn.Name = "eightbtn";
+            this.eightbtn.Size = new System.Drawing.Size(73, 48);
+            this.eightbtn.TabIndex = 10;
+            this.eightbtn.Text = "8";
+            this.eightbtn.UseVisualStyleBackColor = true;
+            this.eightbtn.Click += new System.EventHandler(this.eightbtn_Click);
             // 
             // sevenbtn
             // 
-            sevenbtn.Dock = DockStyle.Fill;
-            sevenbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            sevenbtn.Location = new Point(3, 276);
-            sevenbtn.Name = "sevenbtn";
-            sevenbtn.Size = new Size(84, 63);
-            sevenbtn.TabIndex = 9;
-            sevenbtn.Text = "7";
-            sevenbtn.UseVisualStyleBackColor = true;
-            sevenbtn.Click += sevenbtn_Click;
+            this.sevenbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sevenbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.sevenbtn.Location = new System.Drawing.Point(3, 208);
+            this.sevenbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sevenbtn.Name = "sevenbtn";
+            this.sevenbtn.Size = new System.Drawing.Size(73, 48);
+            this.sevenbtn.TabIndex = 9;
+            this.sevenbtn.Text = "7";
+            this.sevenbtn.UseVisualStyleBackColor = true;
+            this.sevenbtn.Click += new System.EventHandler(this.sevenbtn_Click);
             // 
             // dividebtn
             // 
-            dividebtn.Dock = DockStyle.Fill;
-            dividebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            dividebtn.Location = new Point(273, 207);
-            dividebtn.Name = "dividebtn";
-            dividebtn.Size = new Size(84, 63);
-            dividebtn.TabIndex = 8;
-            dividebtn.Text = "÷";
-            dividebtn.UseVisualStyleBackColor = true;
-            dividebtn.Click += dividebtn_Click;
+            this.dividebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dividebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dividebtn.Location = new System.Drawing.Point(240, 156);
+            this.dividebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dividebtn.Name = "dividebtn";
+            this.dividebtn.Size = new System.Drawing.Size(74, 48);
+            this.dividebtn.TabIndex = 8;
+            this.dividebtn.Text = "÷";
+            this.dividebtn.UseVisualStyleBackColor = true;
+            this.dividebtn.Click += new System.EventHandler(this.dividebtn_Click);
             // 
             // sqrtbtn
             // 
-            sqrtbtn.Dock = DockStyle.Fill;
-            sqrtbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            sqrtbtn.Location = new Point(183, 207);
-            sqrtbtn.Name = "sqrtbtn";
-            sqrtbtn.Size = new Size(84, 63);
-            sqrtbtn.TabIndex = 7;
-            sqrtbtn.Text = "²√x";
-            sqrtbtn.UseVisualStyleBackColor = true;
-            sqrtbtn.Click += sqrtbtn_Click;
+            this.sqrtbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sqrtbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.sqrtbtn.Location = new System.Drawing.Point(161, 156);
+            this.sqrtbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sqrtbtn.Name = "sqrtbtn";
+            this.sqrtbtn.Size = new System.Drawing.Size(73, 48);
+            this.sqrtbtn.TabIndex = 7;
+            this.sqrtbtn.Text = "²√x";
+            this.sqrtbtn.UseVisualStyleBackColor = true;
+            this.sqrtbtn.Click += new System.EventHandler(this.sqrtbtn_Click);
             // 
             // byThePowerOf2Btn
             // 
-            byThePowerOf2Btn.Dock = DockStyle.Fill;
-            byThePowerOf2Btn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            byThePowerOf2Btn.Location = new Point(93, 207);
-            byThePowerOf2Btn.Name = "byThePowerOf2Btn";
-            byThePowerOf2Btn.Size = new Size(84, 63);
-            byThePowerOf2Btn.TabIndex = 6;
-            byThePowerOf2Btn.Text = "x²";
-            byThePowerOf2Btn.UseVisualStyleBackColor = true;
-            byThePowerOf2Btn.Click += byThePowerOf2Btn_Click;
+            this.byThePowerOf2Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.byThePowerOf2Btn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.byThePowerOf2Btn.Location = new System.Drawing.Point(82, 156);
+            this.byThePowerOf2Btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.byThePowerOf2Btn.Name = "byThePowerOf2Btn";
+            this.byThePowerOf2Btn.Size = new System.Drawing.Size(73, 48);
+            this.byThePowerOf2Btn.TabIndex = 6;
+            this.byThePowerOf2Btn.Text = "x²";
+            this.byThePowerOf2Btn.UseVisualStyleBackColor = true;
+            this.byThePowerOf2Btn.Click += new System.EventHandler(this.byThePowerOf2Btn_Click);
             // 
             // XDividedBy1Btn
             // 
-            XDividedBy1Btn.Dock = DockStyle.Fill;
-            XDividedBy1Btn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            XDividedBy1Btn.Location = new Point(3, 207);
-            XDividedBy1Btn.Name = "XDividedBy1Btn";
-            XDividedBy1Btn.Size = new Size(84, 63);
-            XDividedBy1Btn.TabIndex = 5;
-            XDividedBy1Btn.Text = "1/x";
-            XDividedBy1Btn.UseVisualStyleBackColor = true;
-            XDividedBy1Btn.Click += XDividedBy1Btn_Click;
+            this.XDividedBy1Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.XDividedBy1Btn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.XDividedBy1Btn.Location = new System.Drawing.Point(3, 156);
+            this.XDividedBy1Btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.XDividedBy1Btn.Name = "XDividedBy1Btn";
+            this.XDividedBy1Btn.Size = new System.Drawing.Size(73, 48);
+            this.XDividedBy1Btn.TabIndex = 5;
+            this.XDividedBy1Btn.Text = "1/x";
+            this.XDividedBy1Btn.UseVisualStyleBackColor = true;
+            this.XDividedBy1Btn.Click += new System.EventHandler(this.XDividedBy1Btn_Click);
             // 
             // removeLastOnebtn
             // 
-            removeLastOnebtn.Dock = DockStyle.Fill;
-            removeLastOnebtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            removeLastOnebtn.Location = new Point(273, 138);
-            removeLastOnebtn.Name = "removeLastOnebtn";
-            removeLastOnebtn.Size = new Size(84, 63);
-            removeLastOnebtn.TabIndex = 4;
-            removeLastOnebtn.Text = "<=";
-            removeLastOnebtn.UseVisualStyleBackColor = true;
-            removeLastOnebtn.Click += removeLastOnebtn_Click;
+            this.removeLastOnebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.removeLastOnebtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.removeLastOnebtn.Location = new System.Drawing.Point(240, 104);
+            this.removeLastOnebtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.removeLastOnebtn.Name = "removeLastOnebtn";
+            this.removeLastOnebtn.Size = new System.Drawing.Size(74, 48);
+            this.removeLastOnebtn.TabIndex = 4;
+            this.removeLastOnebtn.Text = "<=";
+            this.removeLastOnebtn.UseVisualStyleBackColor = true;
+            this.removeLastOnebtn.Click += new System.EventHandler(this.removeLastOnebtn_Click);
             // 
             // removeAllbtn
             // 
-            removeAllbtn.Dock = DockStyle.Fill;
-            removeAllbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            removeAllbtn.Location = new Point(183, 138);
-            removeAllbtn.Name = "removeAllbtn";
-            removeAllbtn.Size = new Size(84, 63);
-            removeAllbtn.TabIndex = 3;
-            removeAllbtn.Text = "C";
-            removeAllbtn.UseVisualStyleBackColor = true;
-            removeAllbtn.Click += removeAllbtn_Click;
+            this.removeAllbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.removeAllbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.removeAllbtn.Location = new System.Drawing.Point(161, 104);
+            this.removeAllbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.removeAllbtn.Name = "removeAllbtn";
+            this.removeAllbtn.Size = new System.Drawing.Size(73, 48);
+            this.removeAllbtn.TabIndex = 3;
+            this.removeAllbtn.Text = "C";
+            this.removeAllbtn.UseVisualStyleBackColor = true;
+            this.removeAllbtn.Click += new System.EventHandler(this.removeAllbtn_Click);
             // 
             // removeLastbtn
             // 
-            removeLastbtn.Dock = DockStyle.Fill;
-            removeLastbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            removeLastbtn.Location = new Point(93, 138);
-            removeLastbtn.Name = "removeLastbtn";
-            removeLastbtn.Size = new Size(84, 63);
-            removeLastbtn.TabIndex = 2;
-            removeLastbtn.Text = "CE";
-            removeLastbtn.UseVisualStyleBackColor = true;
-            removeLastbtn.Click += removeLastbtn_Click;
+            this.removeLastbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.removeLastbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.removeLastbtn.Location = new System.Drawing.Point(82, 104);
+            this.removeLastbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.removeLastbtn.Name = "removeLastbtn";
+            this.removeLastbtn.Size = new System.Drawing.Size(73, 48);
+            this.removeLastbtn.TabIndex = 2;
+            this.removeLastbtn.Text = "CE";
+            this.removeLastbtn.UseVisualStyleBackColor = true;
+            this.removeLastbtn.Click += new System.EventHandler(this.removeLastbtn_Click);
             // 
             // resulttxt
             // 
-            tableLayoutPanel1.SetColumnSpan(resulttxt, 4);
-            resulttxt.Dock = DockStyle.Fill;
-            resulttxt.Font = new Font("Segoe UI", 50F, FontStyle.Regular, GraphicsUnit.Point);
-            resulttxt.Location = new Point(3, 3);
-            resulttxt.Multiline = true;
-            resulttxt.Name = "resulttxt";
-            resulttxt.ReadOnly = true;
-            resulttxt.Size = new Size(354, 129);
-            resulttxt.TabIndex = 0;
-            resulttxt.Text = "0";
-            resulttxt.TextAlign = HorizontalAlignment.Right;
-            resulttxt.KeyDown += resulttxt_KeyDown;
+            this.tableLayoutPanel1.SetColumnSpan(this.resulttxt, 4);
+            this.resulttxt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.resulttxt.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.resulttxt.Location = new System.Drawing.Point(3, 2);
+            this.resulttxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.resulttxt.Multiline = true;
+            this.resulttxt.Name = "resulttxt";
+            this.resulttxt.ReadOnly = true;
+            this.resulttxt.Size = new System.Drawing.Size(311, 98);
+            this.resulttxt.TabIndex = 0;
+            this.resulttxt.Text = "0";
+            this.resulttxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.resulttxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.resulttxt_KeyDown);
             // 
             // percentbtn
             // 
-            percentbtn.Dock = DockStyle.Fill;
-            percentbtn.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            percentbtn.Location = new Point(3, 138);
-            percentbtn.Name = "percentbtn";
-            percentbtn.Size = new Size(84, 63);
-            percentbtn.TabIndex = 1;
-            percentbtn.Text = "%";
-            percentbtn.UseVisualStyleBackColor = true;
-            percentbtn.Click += percentbtn_Click;
+            this.percentbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.percentbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.percentbtn.Location = new System.Drawing.Point(3, 104);
+            this.percentbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.percentbtn.Name = "percentbtn";
+            this.percentbtn.Size = new System.Drawing.Size(73, 48);
+            this.percentbtn.TabIndex = 1;
+            this.percentbtn.Text = "%";
+            this.percentbtn.UseVisualStyleBackColor = true;
+            this.percentbtn.Click += new System.EventHandler(this.percentbtn_Click);
             // 
             // placeHolderLabelOfScreen
             // 
-            placeHolderLabelOfScreen.AutoSize = true;
-            placeHolderLabelOfScreen.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            placeHolderLabelOfScreen.ForeColor = SystemColors.ControlDark;
-            placeHolderLabelOfScreen.Location = new Point(265, 5);
-            placeHolderLabelOfScreen.Name = "placeHolderLabelOfScreen";
-            placeHolderLabelOfScreen.Size = new Size(0, 25);
-            placeHolderLabelOfScreen.TabIndex = 1;
+            this.placeHolderLabelOfScreen.AutoSize = true;
+            this.placeHolderLabelOfScreen.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.placeHolderLabelOfScreen.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.placeHolderLabelOfScreen.Location = new System.Drawing.Point(232, 4);
+            this.placeHolderLabelOfScreen.Name = "placeHolderLabelOfScreen";
+            this.placeHolderLabelOfScreen.Size = new System.Drawing.Size(0, 20);
+            this.placeHolderLabelOfScreen.TabIndex = 1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(360, 551);
-            Controls.Add(placeHolderLabelOfScreen);
-            Controls.Add(tableLayoutPanel1);
-            MinimumSize = new Size(378, 598);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            KeyDown += Form1_KeyDown;
-            PreviewKeyDown += Form1_PreviewKeyDown;
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(317, 419);
+            this.Controls.Add(this.placeHolderLabelOfScreen);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(333, 458);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

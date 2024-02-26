@@ -5,3 +5,11 @@ C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\Cal
 C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.exe
 C:\Users\User\source\repos\Yavor11a\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.pdb
+D:\Programming\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.exe.config
+D:\Programming\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.exe
+D:\Programming\CalculatorApp1\CalculatorLogic\bin\Debug\CalculatorLogic.pdb
+D:\Programming\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.AssemblyReference.cache
+D:\Programming\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.SuggestedBindingRedirects.cache
+D:\Programming\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.csproj.CoreCompileInputs.cache
+D:\Programming\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.exe
+D:\Programming\CalculatorApp1\CalculatorLogic\obj\Debug\CalculatorLogic.pdb
